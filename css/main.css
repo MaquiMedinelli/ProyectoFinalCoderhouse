@@ -31,20 +31,20 @@ header {
 
 /*inicio estilo menu */
 
-.justify-content-end {
+.menu ul {
     justify-content: flex-end;
     list-style: none;
     display: flex;
 }
 
-.nav-item:hover {
+.menu li:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
-.nav-link {
+.menu li a {
     display: block;
     padding: 15px 20px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     width: 100%;
 }
